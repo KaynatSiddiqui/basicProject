@@ -1,0 +1,161 @@
+ .notificationactive{
+background-color: #b2cc37;
+}
+	 
+.card {
+	border-radius: 2px;
+	display: inline-block;
+	height: 80px;
+	width:400px;
+	margin: 1rem;
+	border-radius:15px;
+	padding:7px 15px;
+	position: relative;
+	background: #b2cc37c7;
+	opacity:0.8;
+	color:white;
+}
+.cardseen {
+	border-radius: 2px;
+	display: inline-block;
+	height: 80px;
+	width:400px;
+	margin: 1rem;
+	border-radius:15px;
+	padding:7px 15px;
+	position: relative;
+	background: #ddd;
+	opacity:0.8;
+	color:white;
+}
+.card-1 {
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.card-1:hover {
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px
+		rgba(0, 0, 0, 0.22);
+		opacity:1.0;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs > li > a,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+    color: #fff;
+    font-weight:bold;
+}
+.with-nav-tabs.panel-primary .nav-tabs > .open > a,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+	    color: #fff;
+    background: #b2cc37;
+   box-shadow: 0 5px 6px olive;
+	border-color: transparent;
+	transform: scale(1.1);
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus {
+	color: #fff;
+	background-color: #b2cc37;
+	border-color: #428bca;
+	border-bottom-color: transparent;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu {
+    background-color: #428bca;
+    border-color: #3071a9;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a {
+    color: #fff;   
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+    background-color: #3071a9;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
+    background-color: #4a9fe9;
+}
+
+.headset{
+    color: white;
+    padding: 7px;
+    border-bottom: 2px solid white;
+    }
+    
+    .sssr{
+    text-transform:uppercase;
+    }
+    
+      .selct{
+       position: relative;
+    top: -5px;
+    right: -22px;
+}
+
+.notif{
+
+    width: 170px;
+   height: 40px;
+}
+
+ .panel-heading {
+         border-color: transparent !important;
+         margin-top: 15px !important;
+ }
+     .foo .last_image{display:none}
+.foo:hover img:first-child{display:none}
+.foo:focus img:first-child{display:none}
+.foo:hover .last_image{display:inline-block;
+    position: relative;
+    left: 11px;
+    top: 4px;
+        width: 30px;
+}
+.foo:focus .last_image{display:inline-block;width: 40px;position: relative !important;
+    top: 5px !important;
+    left: 12px !important;
+        width: 30px;}
+.panel{
+	    border: 1px solid transparent !important;
+}
+ .nav-tabs > li > a {
+ padding: 7px 20px;
+  border-radius: 10px !important;
+    background: #999;
+}
+ .nav-tabs > li {
+             margin-right: 48px !important;
+    border-radius: 12px; }
+    
+
+.nav-tabs > li > a{padding:0;}
+#Tab1_1 .img-1{
+    border-radius: 25px;
+    position: relative;
+       top: 5px;
+    left: 10px;
+}
+#Tab2_2 .img-2{
+    border-radius: 25px;
+    position: relative;
+        top: 5px;
+    left: 12px;
+}
+#myTabs_8 .marleft{margin-left: 20px;}
+.txt-dark span img{        box-shadow: 1px 3px 6px 1px #777;
+    border-radius: 10px;}
+    #myTabs_8{margin-top: -31px;}
+	
+@media (max-width: 768px) {
+    #myTabs_8{
+       margin-top:0px;
+     }
+ }
+  .fixed-sidebar-left .side-nav > li > a.active{
+	background-color: #b2cc37 !important;
+}

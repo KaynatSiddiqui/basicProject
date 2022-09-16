@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="skygetdev">
+<!-- 		<provider>org.datanucleus.api.jpa.PersistenceProviderImpl</provider>
+ -->		<properties>
+			
+			<!-- live server sql login details-->
+
+	 <!--  <property name="datanucleus.ConnectionDriverName" value="com.mysql.jdbc.Driver" />
+		 	<property name="datanucleus.ConnectionURL" value="jdbc:mysql://10.10.21.67:3306/zomanttesting" />
+			<property name="datanucleus.ConnectionUserName" value="root" />
+			<property name="datanucleus.ConnectionPassword" value="Admin@123"/>
+			<property name="datanucleus.autoCreateSchema" value="true"/>   -->
+<!-- 
+             <property name="datanucleus.ConnectionDriverName" value="com.mysql.jdbc.Driver" />
+		 	<property name="datanucleus.ConnectionURL" value="jdbc:mysql://10.10.21.67:3306/skyget_production"/>
+			<property name="datanucleus.ConnectionUserName" value="root" />
+			<property name="datanucleus.ConnectionPassword" value="Admin@123"/>
+			<property name="datanucleus.autoCreateSchema" value="true"/> -->
+			
+         <!--    <property name="datanucleus.ConnectionDriverName" value="com.mysql.jdbc.Driver" />
+		 	<property name="datanucleus.ConnectionURL" value="jdbc:mysql://120.138.9.67:3306/skyget_production" />
+			<property name="datanucleus.ConnectionUserName" value="root" />
+			<property name="datanucleus.ConnectionPassword" value="Admin@123"/>
+			<property name="datanucleus.autoCreateSchema" value="true"/> 
+			 -->
+			<!-- End live server sql login details -->
+	
+			<!--  local setting  -->
+			
+			
+			
+           <property name="datanucleus.ConnectionDriverName" value="com.mysql.jdbc.Driver" />
+			<property name="datanucleus.ConnectionURL" value="jdbc:mysql://localhost:3306/skyget_db"/>
+			<property name="datanucleus.ConnectionUserName" value="root" />
+			<property name="datanucleus.ConnectionPassword" value="root" />
+			<property name="datanucleus.autoCreateSchema" value="true" /> 
+			
+			 
+		<!-- 	<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/skyget_db"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+            <property name="javax.persistence.jdbc.user" value="root" />
+            <property name="javax.persistence.jdbc.password" value="root"/>
+		 -->	
+			
+		<!-- 	 production 
+			 <property name="javax.persistence.jdbc.url" value="jdbc:mysql://skyget-prod.cxtexllrdxah.ap-south-1.rds.amazonaws.com:3306/ebdb?autoReconnect=true"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+            <property name="javax.persistence.jdbc.user" value="admin" />
+            <property name="javax.persistence.jdbc.password" value="admin123"/>
+			 -->
+			
+			
+			
+			
+			
+			
+			
+		
+			
+			
+			
+          <!--   <property name="datanucleus.ConnectionDriverName" value="com.mysql.jdbc.Driver" />
+			<property name="datanucleus.ConnectionURL" value="jdbc:mysql://120.138.9.67:3306/skygetoriginal"/>
+			<property name="datanucleus.ConnectionUserName" value="root" />
+			<property name="datanucleus.ConnectionPassword" value="Admin@123" />
+			<property name="datanucleus.autoCreateSchema" value="true" /> 
+			 --> 
+	 	<!-- <property name="datanucleus.ConnectionDriverName" value="com.mysql.jdbc.Driver" />
+			<property name="datanucleus.ConnectionURL" value="jdbc:mysql://localhost:3306/new_testing_data"/>
+			<property name="datanucleus.ConnectionUserName" value="root" />
+			<property name="datanucleus.ConnectionPassword" value="root" />
+			<property name="datanucleus.autoCreateSchema" value="true" /> -->
+			
+			<!--  <property name="datanucleus.ConnectionDriverName" value="com.mysql.jdbc.Driver" />
+			<property name="datanucleus.ConnectionURL" value="jdbc:mysql://localhost:3306/prod-dump"/>
+			<property name="datanucleus.ConnectionUserName" value="root" />
+			<property name="datanucleus.ConnectionPassword" value="root" />
+			<property name="datanucleus.autoCreateSchema" value="true" />  -->
+			
+			<!-- <property name="datanucleus.ConnectionDriverName" value="com.mysql.jdbc.Driver" />
+			<property name="datanucleus.ConnectionURL" value="jdbc:mysql://localhost:3306/development-instance"/>
+			<property name="datanucleus.ConnectionUserName" value="root" />
+			<property name="datanucleus.ConnectionPassword" value="root" />
+			<property name="datanucleus.autoCreateSchema" value="true" /> -->
+ 
+			<!-- <property name="datanucleus.connectionPoolingType" value="C3P0"/> 
+				<property name="datanucleus.connectionPool.maxPoolSize" value="5"/> <property 
+				name="datanucleus.connectionPool.minPoolSize" value="3"/> <property name="datanucleus.connectionPool.initialPoolSize" 
+				value="3"/> -->
+
+       <property name="datanucleus.schema.autoCreateAll" value="true"/>
+        <property name="datanucleus.connectionPoolingType" value="c3p0"/>
+
+
+
+
+		</properties>
+
+	</persistence-unit>
+</persistence>

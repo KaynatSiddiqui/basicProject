@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Skyget - Engineering & Medical - Entrance Exam Expert">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<link rel="shortcut icon" href="<%=request.getContextPath()%>/assets/landing/favicons/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" href="<%=request.getContextPath()%>/assets/landing/favicons/180x180.png">
+	<link rel="icon" href="<%=request.getContextPath()%>/assets/landing/favicons/180x180.png">
+	<meta name="theme-color" content="#a64bf4">
+    <!-- Title -->
+    <title>Privacy Policy &centerdot; Skyget &centerdot; Engineering & Medical - Entrance Exam Expert</title>
+
+   <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/landing/css/owl.carousel.min.css">
+   <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/landing/css/normalize.min.css">
+   <link href="<%=request.getContextPath()%>/assets/landing/css/md.css" rel="stylesheet"> 
+   <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/landing/css/bootstrap.min.css">
+  
+    <!-- Core Stylesheet -->
+    <link href="<%=request.getContextPath()%>/assets/landing/css/style.css" rel="stylesheet">
+    
+    <!-- Responsive CSS -->
+    <link href="<%=request.getContextPath()%>/assets/landing/css/responsive.css" rel="stylesheet">
+   
+    <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+
+<body>
+    <!-- Preloader Start -->
+    <!-- <div id="preloader">
+        <div class="colorlib-load"></div>
+    </div> -->
+   
+    <%@include file="/jsp/student/student module/header.jsp" %>
+   
+  <section class="special-area bg-white section-padding-80" id="about">
+        <div class="special_description_area mt-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                    <!-- Section Heading Area -->
+                        <div class="section-heading text-center">
+                            <h2>NEET 2020 -Rank Gaurantee Program -Tests Schedule</h2>
+                            <div class="line-shape"></div>
+                        </div>
+                    </div>
+                </div>
+               	<table>
+					<tr>
+					<th>Posting Date</th>
+					<th> Test Type</th>
+					</tr>
+					
+					<tr>
+					<td>01-02-2020</td>
+					<td>Highly Predictive Paper-1
+					<br>Guess patterns (mini-Test)
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>03-02-2020</td>
+					<td>Highly Predictive Paper-2
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>05-02-2020</td>
+					<td>Highly Predictive Paper-3
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>07-02-2020</td>
+					<td>Highly Predictive Paper-4
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					
+					<tr>
+					<td>09-02-2020</td>
+					<td>Highly Predictive Paper-5
+					<br>Guess patterns (mini-Test) </td>
+					</tr>
+					
+
+					<tr>
+					<td>11-02-2020</td>
+					<td>Highly Predictive Paper-6
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+									<tr>
+					<td>13-02-2020</td>
+					<td>Highly Predictive Paper-7
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					<tr>
+					<td>15-02-2020</td>
+					<td>Highly Predictive Paper-8
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>17-02-2020</td>
+					<td>Highly Predictive Paper-9
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>01-02-2020</td>
+					<td>Highly Predictive Paper-10
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>21-02-2020</td>
+					<td>Highly Predictive Paper-11
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>20-03-2020</td>
+					<td>Highly Predictive Paper-12
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>21-03-2020</td>
+					<td>Highly Predictive Paper-13
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>22-03-2020</td>
+					<td>Highly Predictive Paper-14
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>23-03-2020</td>
+					<td>Highly Predictive Paper-15
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>25-03-2020</td>
+					<td>Highly Predictive Paper-16
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>26-03-2020</td>
+					<td>Highly Predictive Paper-17
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>27-03-2020</td>
+					<td>Highly Predictive Paper-18
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>28-03-2020</td>
+					<td>Highly Predictive Paper-19
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>29-03-2020</td>
+					<td>Highly Predictive Paper-20
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>30-03-2020</td>
+					<td>Highly Predictive Paper-21
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>01-04-2020</td>
+					<td>Highly Predictive Paper-22
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>02-04-2020</td>
+					<td>Highly Predictive Paper-23
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>03-04-2020</td>
+					<td>Highly Predictive Paper-24
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>04-04-2020</td>
+					<td>Highly Predictive Paper-25
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>05-04-2020</td>
+					<td>Highly Predictive Paper-26
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>06-04-2020</td>
+					<td>Highly Predictive Paper-27
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					
+					<tr>
+					<td>08-04-2020</td>
+					<td>Highly Predictive Paper-28
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>10-04-2020</td>
+					<td>Highly Predictive Paper-29
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>12-04-2020</td>
+					<td>Highly Predictive Paper-30
+					<br>Guess patterns (mini-Test)</td>
+					</tr>
+					
+					<tr>
+					<td>16-04-2020</td>
+					<td>Final Grand Test-1</td>
+					</tr>
+					
+					<tr>
+					<td>18-04-2020</td>
+					<td>Final Grand Test-2</td>
+					</tr>
+					
+					<tr>
+					<td>20-04-2020</td>
+					<td>Final Grand Test-3</td>
+					</tr>
+					
+					<tr>
+					<td>22-04-2020</td>
+					<td>Final Grand Test-4</td>
+					</tr>
+					
+					<tr>
+					<td>24-04-2020</td>
+					<td>Final Grand Test-5</td>
+					
+					</tr>
+            </table>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <%@include file="/jsp/student/student module/footer.jsp" %>
+
+<%@include file="/jsp/student/student module/loginmodals.jsp" %>
+	
+	    <script src="<%=request.getContextPath()%>/assets/landing/js/jquery-2.2.4.min.js"></script> 
+    <!-- Popper js -->
+    <script src="<%=request.getContextPath()%>/assets/landing/js/popper.min.js"></script>
+ 
+    <!-- All Plugins JS -->
+    <script src="<%=request.getContextPath()%>/assets/landing/js/plugins.js"></script>
+    <script type="text/javascript" src="<%=request.getContextPath()%>/assets/landing/js/mdb.min.js"></script> 
+    <script src="<%=request.getContextPath()%>/assets/landing/js/bootstrap.min.js"></script>
+ 
+    <!-- Slick Slider Js-->
+    <script src="<%=request.getContextPath()%>/assets/landing/js/slick.min.js"></script>
+    <!-- Footer Reveal JS -->
+    <script src="<%=request.getContextPath()%>/assets/landing/js/footer-reveal.min.js"></script>
+    <!-- Active JS -->
+    <script src="<%=request.getContextPath()%>/assets/landing/js/active.js"></script>
+    <script src="<%=request.getContextPath()%>/assets/landing/js/owl.carousel.min.js"></script>
+   
+	 <script src="<%=request.getContextPath()%>/assets/landing/js/main.js"></script>
+	<script src="<%=request.getContextPath()%>/assets/js/baseurl.js"></script>
+	<script src="<%=request.getContextPath()%>/assets/js/studentlogin.js"></script>
+	
+    <script>
+
+    
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,452 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
+
+
+
+.btn-fb{
+    background-color: #4264AA;
+    width: 90%;
+}
+.btn-fb span, .btn-tw span, .btn-gplus span, .btn-fb i, .btn-tw i, .btn-gplus i{
+    color: white;
+
+}
+.btn-tw{
+    background-color: #6CB7F0;
+    width: 90%;
+
+}
+.btn-gplus{
+    background-color: #E15F4F;
+    width: 90%;
+
+}
+#leftsec{
+	border-radius: 20px 0 0 20px;
+    background: linear-gradient(#EE1A4A, #ed1949);
+
+   
+}
+#leftsec .logo img{
+   margin-top: 30px;
+    width: 180px;
+    height: 100px;
+    padding: 7px 7px;
+   
+}
+#leftsec .logo{
+   
+        background-color: white;
+    width: 100%;
+    text-align: center;
+    height: 165px;
+    
+    position: relative;
+    top: 10px;
+    clip-path: ellipse(95% 100% at top);
+    -webkit-clip-path: ellipse(93% 100% at top);
+    
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.315);
+}
+#leftsec .heading p:first-child{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255,255,255);
+    font-family: 'Trocchi', serif;
+    font-weight: bold;
+    margin-top: 150px;
+    padding: 0;
+    letter-spacing: 1px;
+    font-weight: 900;
+    line-height: 45px;
+
+}
+#leftsec .heading p:last-child{
+    text-align: center;
+    font-size: 18px;
+   color: rgb(255,255,255);
+    font-family: "Microsoft Phags Pa";
+    text-align: center;
+    margin-top: -15px;
+    padding: 0;
+
+}
+.socialBox{
+    
+    margin-top: 150px;
+    margin-left: 5%;
+    width: 90%;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.fa-envelope, .fa-mobile, .fa-user, .fa-lock{
+    color: #ed1949;
+}
+.md-form .prefix.active{
+    color: #ed1949;
+}
+.md-form input[type=date]:focus:not([readonly]), .md-form input[type=datetime-local]:focus:not([readonly]), .md-form input[type=email]:focus:not([readonly]), .md-form input[type=number]:focus:not([readonly]), .md-form input[type=password]:focus:not([readonly]), .md-form input[type=search-md]:focus:not([readonly]), .md-form input[type=search]:focus:not([readonly]), .md-form input[type=tel]:focus:not([readonly]), .md-form input[type=text]:focus:not([readonly]), .md-form input[type=time]:focus:not([readonly]), .md-form input[type=url]:focus:not([readonly]), .md-form textarea.md-textarea:focus:not([readonly]){
+    border-bottom: 2px solid #ed1949;
+    box-shadow: none;
+}
+.md-form input[type=date]:focus:not([readonly])+label, .md-form input[type=datetime-local]:focus:not([readonly])+label, .md-form input[type=email]:focus:not([readonly])+label, .md-form input[type=number]:focus:not([readonly])+label, .md-form input[type=password]:focus:not([readonly])+label, .md-form input[type=search-md]:focus:not([readonly])+label, .md-form input[type=search]:focus:not([readonly])+label, .md-form input[type=tel]:focus:not([readonly])+label, .md-form input[type=text]:focus:not([readonly])+label, .md-form input[type=time]:focus:not([readonly])+label, .md-form input[type=url]:focus:not([readonly])+label, .md-form textarea.md-textarea:focus:not([readonly])+label{
+    color: rgba(160, 160, 160, 0.733);
+}
+.form-control{
+    width: 250px;
+}
+.selector{
+    width: 90%;
+     margin-left: 40px;
+      border-top:0;
+      border-left: 0;
+      border-right: 0;
+      color: rgba(0, 0, 0, 0.527);
+
+}
+.selector:focus{
+box-shadow: none;
+border-bottom-color: rgba(0, 0, 0, 0.527);;    
+}
+.priText{
+    font-weight: 800;
+    text-align: center;
+}
+.logAec{
+	text-align: center;
+	margin-bottom:10px;
+}
+.logAec .subMitBtn{
+    background-color: #ed1949;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 8px 80px;;
+    margin-left:0;
+    border-radius: 20px;
+}
+.subMitBtn:hover, .logAec1 .subMitBtn:hover{
+    
+    background-color: #3F51B5;
+    color: white;
+   
+}
+.logAec .signBtn{
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom:10px;
+}
+.logAec .signBtn:hover{
+    border-bottom: 2px solid red;
+    color: red
+    }
+.signup{
+    margin-top: 10px;
+    font-size: 25px;
+    color: #EE1A4A;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+#backSignIn{
+    width: 1000px;
+    margin-left: -10%;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: #4264AA;
+    
+}
+.m1{
+    background-color: transparent;
+    box-shadow: 0;
+   
+}
+
+#leftsec1 .heading p{
+    text-align: center;
+    font-size: 30px;
+    line-height: 15px;
+    font-weight: bolder;
+   color: rgb(255,255,255);
+    font-family: "Microsoft Phags Pa";
+    text-align: center;
+    padding: 0;
+
+}
+#leftsec1{
+    background: linear-gradient(#EE1A4A, #ed1949);
+	border-radius:20px
+   
+}
+#leftsec1 .heading p:first-child{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255,255,255);
+    font-family: 'Trocchi', serif;
+    font-weight: bold;
+    padding-top: 30px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    line-height: 45px;
+
+}
+#idbackShadowBox{
+    background-color: white;
+    height: 700px;;
+    position: absolute;
+    width: 138%;
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.315);
+    top: -55px;
+    border-radius: 5px;
+    left: 23%;
+}
+#idbackShadowBox1{
+    background-color: white;
+    height: 680px;;
+    position: absolute;
+    width: 160%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.315);
+    top: -30px;
+    border-radius: 5px;
+    left: -87%;
+}
+.logAec1{
+	text-align:center;
+}
+#leftsec1 .logo img{
+       padding: 7px 7px;
+    margin-left: 16px;
+    width: 155px;
+    margin-top: 40px;
+}
+#leftsec1 .logo{
+   background-color: white;
+    width: 177px;
+    height: 165px;
+    border-radius: 50% 50% 50% 11%;
+    position: absolute;
+    /* top: 30px; */
+    left: 77%;
+    box-shadow: 1px 0px 21px rgba(0, 0, 0, 0.315);
+}
+.signIn{
+	margin-top:100px;
+    border-left: 10px solid #EE1A4A;
+    font-size: 30px;
+    line-height: 80px;
+    color: #EE1A4A;
+    font-weight: 400;
+    padding-left: 25px;
+    
+}
+
+.md-form1{
+    margin-left: 12%;
+}
+.md-form1 .form-control{
+    width: 80%;
+}
+#idbackShadowBox1 form{
+    
+}
+
+.logAec1 .subMitBtn{
+    background-color: #ed1949;
+    color: white!important;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 8px 70px;;
+    margin-left: 0%;
+    border-radius: 20px;
+    width:90%;
+}
+.logAec1 .signBtn{
+    color: gray;
+    font-size: 20px;
+    font-weight: 300;
+    position: relative;
+    top: 50px;
+    
+}
+.logAec1 .signBtn1{
+    color: gray;
+    font-size: 20px;
+    font-weight: 300;
+    position: relative;
+    top: 60px;
+    
+}
+
+@media only screen and (max-width: 330px){
+    
+#backSignIn{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+    
+}
+    
+
+    #idbackShadowBox{
+        display: none;
+    }
+    #idbackShadowBox1{
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+    #leftsec1 .logo{
+        display: none;
+    }
+    .logAec1 .subMitBtn{
+        padding: 8px 60px;
+        
+    
+    }
+   
+    .logAec1 .signBtn1{
+        position: relative;
+        
+    }
+}
+@media only screen and (min-width: 331px) and (max-width: 450px){
+    .subMitBtn{
+       
+        margin-left: 10%;
+    }
+    #idbackShadowBox{
+        display: none;
+    }
+    #idbackShadowBox1{
+        position: static;
+        width: 100%;
+        left: 0;
+    }
+    #leftsec1 .logo{
+        display: none;
+    }
+    .logAec1 .subMitBtn{
+        padding: 8px 80px;
+        
+    
+    }
+        
+#backSignIn{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+    
+}
+ 
+}
+@media only screen and (min-width: 451px) and (max-width: 767px){
+    
+    #idbackShadowBox{
+        display: none;
+    }
+    #idbackShadowBox1{
+        position: static;
+        width: 100%;
+        left: 0;
+    }
+    .logAec1 .subMitBtn{
+        padding: 8px 110px;
+        
+    
+    }
+    
+        
+#backSignIn{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+    
+}
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1000px){
+    #idbackShadowBox{
+        margin-top: 50px;
+        display: none;
+    }
+    #idbackShadowBox1{
+        position: static;
+        width: 100%;
+        left: 0;
+    }
+        
+#backSignIn{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+    
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+    .logAec1 .subMitBtn{
+        padding: 8px 40px;
+        margin-left: 28px;
+    
+    }
+    #backSignIn{
+        width: 100%;
+        margin-left: 0;
+    }
+}

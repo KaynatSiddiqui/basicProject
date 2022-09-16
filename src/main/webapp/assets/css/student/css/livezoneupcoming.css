@@ -1,0 +1,137 @@
+.liveupcominmg{
+background-color: #289cd7;
+}
+.fixed-sidebar-left .side-nav > li > a.active{
+	background-color: #289cd7 !important;
+}
+.plus-icon{
+    position: relative;
+	    float:right;
+	    bottom: 66px;
+ }
+ .card-view.panel .panel-body{
+ 	padding: 17px !important;
+ }
+ .plus-icon2{
+ position: relative;
+	    float:right;
+	    bottom: 53px;
+ }
+
+.ribbon {
+    background: gold;
+    height: 50px;
+    margin: 0 auto;
+    position: absolute;
+    width: 54px;
+    left:10px;
+    top:-8px;
+    text-align:center;
+    vertical-align:middle;
+    line-height:65px;
+    font-size:16px;
+    color:white;
+}
+.ribbon:after,
+.ribbon:before {
+    content: '';
+    position: absolute;
+    border-top: 20px solid gold;
+    height: 0;
+    width: 0;
+    top: 100%;
+   
+}
+.ribbon:after {
+    border-left: 50px solid transparent;
+    right: 0px;
+}
+.ribbon:before {
+    border-right: 50px solid transparent;
+    left: 0px;
+}
+
+#getspace{
+position:relative;
+    height:58px;
+    width:305px;
+}
+
+.gold{
+color:gold;	
+}
+
+#fntsez{
+font-size:12px;
+}
+
+#settfont{
+position: absolute;
+ right: 0px;
+ padding-left: 19px;
+ border-left: 3px solid gold;
+}
+.syllabus-img{
+    width: 25px;
+    position: relative;
+    bottom: -9px;
+    margin-left: 8px;
+}
+// .nxtexammock{
+	    // background: hotpink;
+        // padding: 10px;
+        // border-radius:6px;
+// }
+// .nxtexamsub{
+	    // background: #10c9d8;
+        // padding: 10px;
+        // border-radius:6px;
+// }
+// .nxtexamfull{
+	    // background: #C974E3;
+        // padding: 10px;
+        // border-radius:6px;
+// }
+// .nxtexammock:hover{
+	  // color:#fff;
+	  // font-weight:bold;
+// }
+// .nxtexamsub:hover{
+	   // color:#fff;
+	   // font-weight:bold;
+// }
+// .nxtexamfull:hover{
+	     // color:#fff;
+	     // font-weight:bold;
+// }
+.btn-livezone_upcoming_subjectwise{
+	font-weight:bold;
+}
+.btn-livezone_upcoming_full_syllabus{font-weight:bold;}
+
+@media (max-width:1024px){
+.setdisplay{
+display:flex;
+}
+}
+.center a img{
+width:270px;
+}
+
+.fonkar{
+color:black;
+font-size:19px;
+}
+span[title]:hover:after {    z-index: 9999;
+    content: attr(title);
+    background: cornsilk;
+    font-size: 20px;
+    height: auto;
+    position: absolute;
+    text-align: center;
+    width: 200px;
+	right: 2px;}
+	
+	.alertify{
+	border: 10px solid #289cd7;
+}

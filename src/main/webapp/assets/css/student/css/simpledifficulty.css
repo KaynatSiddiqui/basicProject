@@ -1,0 +1,215 @@
+#headertop{
+width:100%;
+height:80px;
+margin-left: 50px;
+}
+
+.ribbon {
+    font-weight: 600;
+    color: #fff;
+    background:deepskyblue;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 40px;
+    max-width: 90vw;
+    letter-spacing:2px;
+    width: max-content;
+    position: relative;
+    text-align: center;
+    height: 50px;
+    margin: 3em 2em;
+    filter: drop-shadow(0 10px 13px rgba(0, 0, 0, 0.4));
+    border: 2px solid #666;
+  }
+  
+  .ribbon:after,
+  .ribbon:before {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 0;
+    border: 20px solid #fff;
+  }
+  
+  .ribbon:before {
+    left: -32px;
+    background:deepskyblue;
+    height:50px;
+    border-right-width: 10px;
+    border-left-color: transparent;
+    filter: drop-shadow(-6px 6px 3px rgba(0, 0, 0, 0.04));
+  }
+  
+  .ribbon:after {
+    right: -32px;
+    background:deepskyblue;
+    height:50px;
+    border-left-width: 10px;
+    border-right-color: transparent;
+    filter: drop-shadow(6px 6px 3px rgba(0, 0, 0, 0.04));
+  }
+  
+
+
+
+.leveldetails{
+    margin-top:40px;
+}
+
+
+.displaycenter{
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+}
+
+.btn{
+    margin: 4px;
+    box-shadow: 1px 1px 5px #888888;
+}
+
+.btn-hot {
+    color: #fff;
+    background-color: #db5566;
+    border-bottom:2px solid #af4451;
+    }
+    
+    .btn-hot:hover, .btn-sky.active:focus, .btn-hot:focus, .open>.dropdown-toggle.btn-hot {
+    color: #fff;
+    background-color: #df6a78;
+    border-bottom:2px solid #b25560;
+    outline: none;}
+    
+    
+    .btn-hot:active, .btn-hot.active {
+    color: #fff;
+    background-color: #c04b59;
+    border-top:2px solid #9a3c47;
+    margin-top: 2px;
+    }
+
+
+    .btn-sunny {
+        color: #fff;
+        background-color: #f4ad49;
+        border-bottom:2px solid #c38a3a;
+        }
+        
+        .btn-sunny:hover, .btn-sky.active:focus, .btn-sunny:focus, .open>.dropdown-toggle.btn-sunny {
+        color: #fff;
+        background-color: #f5b75f;
+        border-bottom:2px solid #c4924c;
+        outline: none;
+        }
+        
+        
+        .btn-sunny:active, .btn-sunny.active {
+        color: #fff;
+        background-color: #d69840;
+        border-top:2px solid #ab7a33;
+        margin-top: 2px;
+        }
+
+        a {color:#fff;}
+a:hover {text-decoration:none; color:#fff;}
+
+input[data-radio='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+
+}
+
+input[data-radio='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #008000;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.labelcol{
+    color:#008000;
+    font-weight:600px;
+}
+
+
+input[data-radio1='radio2']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[data-radio1='radio2']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffa500;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.labelcol1{
+    color:#ffa500;
+    font-weight:600px;
+}
+
+input[data-radio2='radio3']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[data-radio2='radio3']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #3a7eea;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.labelcol2{
+    color:#3a7eea;
+    font-weight:600px;
+}

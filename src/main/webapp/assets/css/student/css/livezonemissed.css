@@ -1,0 +1,102 @@
+.form-group{
+	width: 60%;
+    position: relative;
+    top: -14px;
+    float: right;
+}
+.form-group label{
+position: relative;
+    left: -75px;
+    top: 37px;
+}
+.bullet{
+list-style: disc;
+}
+.livemissed{
+background-color: #b51788;
+}
+.fixed-sidebar-left .side-nav > li > a.active{
+	background-color:  #b51788 !important;
+}
+	.ribbon {
+    background: gold;
+    height: 50px;
+    margin: 0 auto;
+    position: absolute;
+    width: 54px;
+    left:10px;
+    top:-8px;
+    text-align:center;
+    vertical-align:middle;
+    line-height:65px;
+    font-size:16px;
+    color:white;
+}
+.ribbon:after,
+.ribbon:before {
+    content: '';
+    position: absolute;
+    border-top: 20px solid gold;
+    height: 0;
+    width: 0;
+    top: 100%;
+   
+}
+.ribbon:after {
+    border-left: 50px solid transparent;
+    right: 0px;
+}
+.ribbon:before {
+    border-right: 50px solid transparent;
+    left: 0px;
+}
+
+#getspace{
+position:relative;
+    height:58px;
+    width:285px;
+}
+
+.gold{
+color:gold;	
+}
+
+#fntsez{
+font-size:12px;
+}
+
+.fonkar{
+color:black;
+font-size:19px;
+}
+
+#settfont{
+position: absolute;
+ right: 0px;
+ padding-left: 19px;
+ border-left: 3px solid gold;
+}
+.button-list a.active{
+	color:black;
+	box-shadow:none;
+	border-bottom:3px solid #b51788;
+}
+.button-list a{
+color:black
+}
+.marbottm{margin-bottom: -19px;}
+
+/*span[title]:hover:after {
+  content: attr(title);
+  position: absolute;
+  top: -250%;
+  left: 0;
+  background:cornsilk;
+  width:150px;
+  height:auto;
+  padding:10px;
+  font-size:20px;
+  border-radius:25px;
+  text-align:center;
+}*/
+span[title]:hover:after {z-index:9999; content: attr(title); background:cornsilk; font-size:20px;height:auto; position: absolute;text-align:center;width:200px;}

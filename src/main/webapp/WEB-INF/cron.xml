@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <!-- <cron>
+    <url>/rest/feedback/sendAutoFeedbackMail</url>
+    <description>Mail out a daily feedback</description>
+    <schedule>every mon,tue,wed,thu,fri 19:00</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+  </cron>
+  <cron>
+    <url>/rest/admin/sendPromocodeAlertMail</url>
+    <description>Mail out promocodeAlert to Admin</description>
+    <schedule>every mon,tue,wed,thu,fri,sat,sun 19:00</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+  </cron>
+  <cron>
+    <url>/rest/admin/promocode/synchPromocodeUsage</url>
+    <description>Update Promocode totals table</description>
+    <schedule>every day 21:00</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+  </cron>
+ <cron>
+    <url>/rest/mailchimp/runcurrentDayCompaign</url>
+    <description>run mailchimp Current day Menu campaign</description>
+    <schedule>every mon,tue,wed,thu,fri 9:00</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+  </cron> 
+  
+  <cron>
+    <url>/rest/mailchimp/lists/syncsegements</url>
+    <description>sync mailchimp  segements info segements table</description>
+    <schedule>every mon,tue,wed,thu,fri 9:00</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+  </cron> 
+  
+  
+  
+  
+  <cron>
+    <url>/rest/mailchimp/runweeklyCompaign</url>
+    <description>run mailchimp Weekly campaign</description>
+    <schedule>every sun 16:00</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+  </cron>
+  <cron>
+    <url>/rest/update/updateCustomersFirstDeliveryDate</url>
+    <description>updateCustomersFirstDeliveryDate</description>
+    <schedule>every day 15:00</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+  </cron>
+  <cron>
+    <url>/rest/admin/menu/resetsoldqty</url>
+    <description>Refresh food item sold quantities</description>
+    <schedule>every 30 mins</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+  </cron>
+  <cron>
+    <url>/rest/common/changeDeliveryStatus</url>
+    <description>Update Delivery Status</description>
+    <schedule>every mon,tue,wed,thu,fri 23:00</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+  </cron>
+  
+  
+  
+  <cron>
+    <url>/rest/mailchimp/lists/syncMailChimpListInfo</url>
+    <description>Synch Mail Chimp Lists information </description>
+    <schedule>every mon,tue,wed,thu,fri 9:00</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+  </cron>
+  
+  
+  
+  
+  <cron>
+    <url>/rest/admin/menu/60137/removestrike</url>
+    <description>Remove strike from previous menu items</description>
+    <schedule>every mon,tue,wed,thu,fri 15:30</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+  </cron>
+
+
+<cron>
+    <url>/rest/mailchimp/autorunCampaignfor3daysnotorderd</url>
+    <description>Auto mail for Registered but not ordered 3days</description>
+    <schedule>every mon,tue,wed,thu,fri,sat,sun 19:00</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+  </cron>
+  
+  <cron>
+    <url>/rest/mailchimp/autorunCampaignfor6daysnotorderd</url>
+    <description>Auto mail for Registered but not ordered 6days</description>
+    <schedule>every mon,tue,wed,thu,fri,sat,sun 19:00</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+  </cron>
+  
+  <cron>
+    <url>/rest/mailchimp/autorunCampaignfor15daysnotorderd</url>
+    <description>Auto mail for Registered but not ordered 15days </description>
+    <schedule>every mon,tue,wed,thu,fri,sat,sun 19:00</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+  </cron>
+  
+   <cron>
+    <url>/rest/mailchimp/runweeklyCampaign30daysinactive</url>
+    <description>run mailchimp Weekly Customer Referral Program Awareness campaign</description>
+    <schedule>every mon, wed 14:30</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+  </cron>
+  
+   <cron>
+    <url>/rest/mailchimp/runInactiveCustomerConversion10Daysmon</url>
+    <description>Send to Inactive Customers whom registered but have purchased.  Registered, but no orders after 10 days (Letter 2).    </description>
+    <schedule>every mon 13:00</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+  </cron>
+  
+   <cron>
+    <url>/rest/mailchimp/runInactiveCustomerConversion10Daystues</url>
+    <description>Send to Inactive Customers whom registered but have purchased. Registered, but no orders after 10 days.(Letter 1)  </description>
+    <schedule>every tue 19:00</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+  </cron>
+  
+   <cron>
+    <url>/rest/mailchimp/30daysinactivecustomers</url>
+    <description>run mailchimp Current day 30daysinactivecustomer campaign</description>
+    <schedule>every day 19:00</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+  </cron> 
+  
+   <cron>
+    <url>/rest/mailchimp/newcustomeracquisationevery2weeks</url>
+    <description>Customer Referral Give $10 Introduction Email #1
+ 	</description>
+    <schedule>9,14,28 of month 09:00</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+  </cron>
+  
+  schedule: 1,8,15,22 of month 09:00
+  
+  <cron>
+	<url>/rest/mailchimp/inactive180</url>
+	<description>InActive Customer Re-Engagement 180 days plus </description>
+	<schedule>every mon 9:00</schedule>
+	<timezone>America/Chicago</timezone>
+	<target>version-1</target>
+</cron>
+  
+   <cron>
+	<url>/rest/mailchimp/inactive90to180days</url>
+	<description>InActive Customer Re-Engagement from 90 to 180 days </description>
+	<schedule>every mon 9:00</schedule>
+	<timezone>America/Chicago</timezone>
+	<target>version-1</target>
+</cron>
+
+<cron>
+    <url>/rest/gift/sendvouchertoMomsGiftcardowner</url>
+    <description>Sending voucher to the moms giftcard owners</description>
+    <schedule>every day 04:08</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+</cron>  -->
+
+<!-- <cron>
+    <url>/rest/fundraiser/fundraiserreminder</url>
+    <description>fundraise reminder</description>
+    <schedule>every day 02:58</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+</cron> 
+<cron>
+    <url>/rest/fundraiser/fundraiserreminderafterfundraiserend</url>
+    <description>fundraise reminder after fundraiser end</description>
+    <schedule>every day 00:30</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+</cron> 
+<cron>
+    <url>/rest/fundraiser/fundraiserreminderbetweenfundraiser</url>
+    <description>fundraise reminder after fundraiser end</description>
+    <schedule>every day 00:30</schedule>
+    <timezone>America/Chicago</timezone>
+    <target>version-1</target>
+</cron> 
+   -->
+  
+  </cronentries>

@@ -1,0 +1,112 @@
+.rwstyle{
+margin-right: 0px; 
+    margin-left: 0px; 
+}
+.rwsstyles{
+margin-top:10px;
+    border-radius: 15px;
+    background: white;
+    padding:10px;
+  
+}
+.rwsstyles:hover{
+ box-shadow: 0px 6px 13px grey, 0px 2px 15px lightgrey;
+ 
+} 
+
+.card-view{
+	padding:0 !important;	
+}
+
+.getstached{
+    margin: 8px 10px;
+    padding: 20px;
+    background: #fff !important;
+
+}
+
+.getposi{
+    position: relative;
+    top: -23px;
+    left: -23px;
+    color:black;
+    border-bottom: 2px solid #dbdedf;
+}
+
+
+.setbg{
+background:lemonchiffon;
+}
+
+.adjustname{
+	font-size:16px !important;
+	position: absolute;
+    top: 10px;
+    left: 85px;
+	white-space:nowrap;
+}
+
+.heit{
+line-height:30px;
+white-space:nowrap;
+}
+
+.setbtn{
+padding:6px 18px;
+margin-top:0px;
+}
+
+#papertab >li{
+width:155px; !important;
+}
+
+#papertab >li > a{
+background:none; !important;
+color:black;
+}
+#papertab li{
+    text-align: center;
+}
+#papertab li a:hover {
+    transform: scale(1.1,1.1);
+}
+#papertab >li.active > a {
+     border-bottom:3px solid deepskyblue;
+     cursor: pointer;
+     border-radius: 10px;
+}
+.rwsstyles:hover{
+	padding:16px;
+}
+
+#papertab li a img:hover{
+    box-shadow: 1px 3px 23px grey;
+    border-radius: 6px;
+    transform: scale(1.1,1.1);
+}
+.test{
+	text-align:center;
+}
+.test > thead > tr > th{
+	text-align:center;
+}
+.text_score{
+	color: #22B14C;
+    font-weight: bold;
+    font-size: 14px;
+}
+.text_time_taken{
+	color: #FF7F27;
+    font-weight: bold;
+    font-size: 14px;
+}
+.text_unattempted{
+	    color: #3F48CC;
+    font-weight: bold;
+    font-size: 14px;
+}
+.text_negative_score{
+	 color: #EB1FB0;
+    font-weight: bold;
+    font-size: 14px;
+}

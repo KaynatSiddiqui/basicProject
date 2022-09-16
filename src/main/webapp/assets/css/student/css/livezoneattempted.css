@@ -1,0 +1,154 @@
+.form-group{
+	width: 60%;
+    position: relative;
+    top: -14px;
+    float: right;
+}
+.form-group label{
+position: relative;
+    left: -75px;
+    top: 37px;
+}
+.liveattempted{
+background-color: #eac131;
+}
+.fixed-sidebar-left .side-nav > li > a.active{
+	background-color: #eac131 !important;
+}
+		.ribbon {
+    background: gold;
+    height: 50px;
+    margin: 0 auto;
+    position: absolute;
+    width: 54px;
+    left:10px;
+    top:-8px;
+    text-align:center;
+    vertical-align:middle;
+    line-height:65px;
+    font-size:16px;
+    color:white;
+}
+.ribbon:after,
+.ribbon:before {
+    content: '';
+    position: absolute;
+    border-top: 20px solid gold;
+    height: 0;
+    width: 0;
+    top: 100%;
+   
+}
+.ribbon:after {
+    border-left: 50px solid transparent;
+    right: 0px;
+}
+.ribbon:before {
+    border-right: 50px solid transparent;
+    left: 0px;
+}
+
+#getspace{
+position:relative;
+    height:58px;
+    width:305px;
+}
+
+.gold{
+color:gold;	
+}
+
+#fntsez{
+font-size:12px;
+}
+
+#settfont{
+position: absolute;
+ right: 0px;
+ padding-left: 19px;
+ border-left: 3px solid gold;
+}
+.pd-5{
+	padding: 5px 0;
+}
+.bg{
+	background: #f0f4f5;
+}	
+.button-list a.active{
+	color:black;
+	box-shadow:none;
+	border-bottom:3px solid #eac131;
+}
+.button-list a{
+color:black
+}
+
+.marf{
+margin-bottom:5px;
+}
+
+#questionsContent{
+	justify-content: flex-start !important;
+    align-content: flex-start !important;
+    align-items: flex-start !important;
+}
+
+.centerVHWidth {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+}
+
+
+
+.attemptqns{
+color:#9932CC;
+font-size:bold;
+}
+.correctqns{
+color:#9932CC;
+font-size:bold;
+}
+.qnscount{
+
+    margin-top: inherit;
+}
+.icnstyle{
+color:#E9967A;
+font-size:20px;
+}
+
+.fonkar{
+color:black;
+font-size:19px;
+}
+.bullet{
+list-style: disc;
+}
+
+#attemptedModal tbody,#attemptedModal tfoot,#attemptedModal thead,#attemptedModal tr,#attemptedModal th,#attemptedModal td{
+	border: 1px solid #777;
+	margin: 0 !important;
+}
+
+
+.optionswrap p{
+	display: inline-block;
+}
+.wstedicon{
+width:25px;
+height:25px;
+}
+
+.wstedtxtclr{
+color: #ef6fd1;
+    font-size: 20px;
+    line-height: unset;
+}
+.wstnum{
+color:#ef6fd1;
+font-size: 20px;
+}

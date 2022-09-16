@@ -1,0 +1,36 @@
+.feedbackpostactive{
+background-color: Orange;
+}
+
+#image {
+padding: 10px;
+background: #b10058;
+color: #fff;
+}
+
+/* input[type="file"] {
+display: none;
+} */
+
+#paddon{
+padding-bottom:20px;
+/* box-shadow: 2px 4px 7px 1px #777; */
+}
+#bg{
+	position: relative;
+    top: 15px;
+}
+#gb{position: relative;
+    top: 15px;}
+.butnlist{position: relative;
+    top: -28px;}
+	
+	@media (min-width: 768px) {
+#image{
+margin-top:10px;
+}
+
+}
+.fixed-sidebar-left .side-nav > li > a.active{
+	background-color: orange !important;
+}	

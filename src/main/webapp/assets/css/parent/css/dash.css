@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #eee;
+}
+#tabrow{
+    background: #fff;
+    
+    margin-top: 65px;
+    padding: 35px;
+}
+#toptab ul li {
+    list-style: none;
+    padding: 0px 50px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+#toptab ul li a{
+    font-size: 18px;
+    text-decoration: none;
+}
+#toptab ul{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+#toptab ul li.active {
+    border-bottom: 3px solid deepskyblue;
+    padding-bottom: 16px;
+    border-radius: 35px;
+}
+.topperimg{
+    width: 250px;
+}
+.testtaken{
+   
+    margin-right: 18px;
+    font-weight: bold;  
+}
+.rightflo{
+	float:right;
+	
+}
+#topperrow-2{
+    background: #fff;
+    margin-top: 39px;
+    padding: 20px;
+}
+.center{
+    text-align: center;
+}
+.padd{
+    padding: 15px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.colr{
+    color: deepskyblue;
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+/* bar */
+.position{
+    color: gray;
+}
+.progress-bar span{
+    font-size: 18px;
+     position: absolute;
+    /*transform: translate(-91%,242%); */
+    top: 52px;
+    left: 50px;
+    z-index: 1;
+}
+.accuracy span{
+    left: 61px;
+}
+.speed span{
+    left: 72px;
+}
+.progress-bar {
+    position: relative;
+    height: 100px;
+    width: 345px !important;
+    background: #ffffff;
+    box-shadow: none;
+    
+  }
+  .progress-bar div {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  .progress-bar div span {
+    position: absolute;
+    font-family: Arial;
+    font-size: 25px;
+    line-height: 75px;
+    height: 75px;
+    width: 75px;
+    left: 12.5px;
+    top: 12.5px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+    color: gray;
+    z-index: 0;
+  }
+  
+  .progress-bar .background { background-color: #b3cef6; }
+  
+  .progress-bar .rotate {
+    clip: rect(0 50px 100px 0);
+    background-color: #4b86db;
+    transition: transform 1000ms linear 50s;
+  }
+  
+  .progress-bar .left {
+    clip: rect(0 50px 100px 0);
+    opacity: 1;
+    background-color: #b3cef6;
+  }
+  
+  .progress-bar .right {
+    clip: rect(0 50px 100px 0);
+    transform: rotate(180deg);
+    opacity: 0;
+    background-color: #4b86db;
+  }
+  .bar-row{
+      background: #fff;
+      margin-top: 36px;
+     /* display: flex;
+      justify-content: center;*/
+  }
+  .bar-height{
+	      	
+    height: 316px;
+    margin-top: -96px;
+  }
+  @keyframes 
+  toggle {  0% {
+   opacity: 0;
+  }
+   100% {
+   opacity: 1;
+  }
+  }
+/* bar */
+/* verticalbar */
+.verticalbar{
+    margin-top: 50px;
+    
+}
+/* #progress{
+    transform: translate(21%,-16%);
+}
+#container-verticalbar{
+    overflow-x: hidden;
+}
+.highcharts-point{
+    width:50px !important;
+    margin-left: -10px;
+} */
+#container-verticalbar{
+    padding-bottom: 45px;
+}
+.highcharts-button-normal{
+    display: none !important;
+}
+.highcharts-credits{
+    display: none !important;
+}
+#datatable{
+    display: none !important;
+}
+/* .highcharts-root{
+    width: 700px !important;
+} */
+/* verticalbar */
+
+/* bar-2 */
+.second-bar{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+/* bar-2 */
+.row-graph{
+    margin-top: 40px;
+}
+#container-graph{
+	min-width: 310px;
+	max-width: 800px;
+	height: 400px;
+	margin: 0 auto
+}
+
+@media screen and (max-width: 991px){
+	  .bar-height{
+	  overflow:scroll;
+	  }
+}
+.thickbox-open{
+  filter: blur(2px); 
+   pointer-events: none;
+}
+.container #tabrow, .container #topperrow-2, .container .bar-row {
+	
+	box-shadow: 0px 0px 18px grey;
+	border-radius: 27px;
+}
+.rightflo .col-md-12{
+	display: flex;
+    align-items: center;
+    letter-spacing
+}
+#testtakentill{
+	padding-left: 5px;
+}
+/*#progress .highcharts-container{
+	    box-shadow: 0px 0px 18px grey;
+}
+#progresslevelwise .highcharts-container{
+	    box-shadow: 0px 0px 18px grey;
+}
+#container-graph .highcharts-container{
+	    box-shadow: 0px 0px 18px grey;
+}*/
+.patchwise{
+	box-shadow: 0px 0px 18px grey;background-color: white; border-radius: 30px;margin-top: 35px;
+	
+}

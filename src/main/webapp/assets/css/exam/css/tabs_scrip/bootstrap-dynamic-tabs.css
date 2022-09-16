@@ -1,0 +1,291 @@
+
+/*------qustionmock-----*/
+.qust_time_right {
+	float:right;
+}
+/*------qustionmock-----*/
+/*--instruction_1---*/
+.instruction_content {
+	border-top: 1px solid #cccccc!important;
+    height: 348px!important;
+    overflow-y: scroll!important;
+}
+/*----instruction_1---*/
+/*--tabs-css--questionmock--*/
+
+.tabs_padding {
+	padding:0px;
+}
+
+.essay_p {
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #cccccc #cccccc;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+     height: 315px;
+    margin: 0 0 10px;
+    overflow: hidden;
+    padding: 15px
+}
+
+.left_p {
+	border-right:none;
+}
+.right_p {
+	border-left:none;
+}
+
+h2.heading_qustmock {
+	margin: 0px;padding: 0px;border:1px solid #ccc;background: #EEEEEE;font-size: 19px;padding: 5px 0;text-align: center;     
+}
+
+#reasoning {
+    position: relative;
+    display: inline-block;
+cursor:pointer;
+}
+
+#reasoningresult {
+     display: none;
+    position: absolute;
+    width: 250px;
+}
+
+#reasoning:hover #reasoningresult {
+    display: block;
+cursor:pointer;
+}
+
+.navbar {
+min-height:56px!important;
+}
+
+.dynamic-tabs-container {
+	left: 50px;
+    top: -56px;
+}
+
+.qustn_mock > li > a {
+    font-weight: bold;
+    line-height: 12px;
+    text-align: center;
+}
+
+.tabs_content {
+	border:none;
+	top: -50px;
+}
+
+.dropdown-menu > li:hover {
+background:none !important;
+}
+
+.dropdown-menu > li > a:hover {
+	padding: 3px 20px!important;
+	background:none !important;
+	height:auto !important;
+	color:#009AE7;
+}
+
+.sort_by {
+position: relative; z-index: 999;
+}
+
+.dynamic-tabs-container > .nav .dropdown-menu li.dynamic-tab {
+	 border-bottom: 1px solid #cccccc;
+    padding: 4px;
+}
+
+.dropdown-menu > li > a {
+	font-weight:bold;
+	color:#3584c9;
+}
+
+.dropdown-menu > li:hover > a, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:active, .dropdown-menu > li.active > a, .dropdown-menu > li.active:hover > a {
+	background:none !important;
+}
+
+/*--tabs-css--questionmock--*/
+.dynamic-tabs {
+	width: 100%;
+	float: left;
+	margin-left:0px;
+}
+.dynamic-tabs-container {
+	position: relative;
+}
+.dynamic-tabs-container .dynamic-tabs {
+    padding-right: 50px;
+}
+.dynamic-tabs-container .tabs-dropdown {
+    position: absolute;
+    right: 0;
+    margin-right: 0 !important;
+}
+.dynamic-tabs-container .tabs-dropdown.navbar-nav {
+    margin: 0 !important;
+}
+@media only screen and (max-width: 767px) {
+#reasoning:hover #reasoningresult {
+    display: none;
+cursor:pointer;
+}
+
+#reasoningresult {
+    width: 290px;
+}
+#reasoningresult {
+    margin: 46px 0 0 -23px;
+}
+
+.btn_mbl_padding {
+	padding:6px 7px;
+	margin-bottom:5px;
+}
+
+.questionPalette {
+	 border: 1px solid #a7b0bf;
+    border-radius: 3px;
+}
+
+.mbl_tab_content {
+	padding: 0px 4px
+}
+
+.tabs_content {
+	padding:0px;
+}
+
+.left_p {
+	border-right:1px solid #ccc;
+}
+.right_p {
+	border-left:1px solid #ccc;
+}
+
+.essay_p {
+	height:auto;
+}
+
+.qustmck_1 {
+	padding-right: 0px
+}
+
+	.dynamic-tabs-container .tabs-dropdown {
+		 right: 39%;
+    top: -4px;
+	}
+    .dynamic-tabs-container .tabs-dropdown .dropdown-menu {
+        bottom: 20px;
+		height: 146px;
+		left: -153px;
+		padding-top: 0px;
+		position: absolute;
+		right: -22px;
+		top: 39px;
+	}
+    .dynamic-tabs-container .tabs-dropdown .dropdown-menu .dropdown-header {
+        position: fixed;
+        left: 21px;
+        right: 21px;
+        background: #FFF;
+        margin-top: -50px;
+        padding-top: 18px;
+        border-radius: 4px 4px 0 0;
+	}
+    .dynamic-tabs-container .tabs-dropdown .dropdown-menu .close {
+        position: absolute;
+        top: 14px;
+        right: 20px;
+	}
+    .dynamic-tabs-container .tabs-dropdown .dropdown-menu .divider {
+          margin: 0;
+	}
+	.dynamic-tab {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+
+#reasoning:hover #reasoningresult {
+    display: none;
+cursor:pointer;
+}
+
+#reasoningresult {
+    width: 290px;
+}
+#reasoningresult {
+    margin: 46px 0 0 -23px;
+}
+
+.btn_mbl_padding {
+	padding:6px 7px;
+	margin-bottom:5px;
+}
+
+.questionPalette {
+	 border: 1px solid #a7b0bf;
+    border-radius: 3px;
+}
+
+.mbl_tab_content {
+	padding: 0px 4px
+}
+
+.tabs_content {
+	padding:0px;
+}
+
+.left_p {
+	border-right:1px solid #ccc;
+}
+.right_p {
+	border-left:1px solid #ccc;
+}
+
+.essay_p {
+	height:auto;
+}
+
+.qustmck_1 {
+	padding-right: 0px
+}
+
+.questionnum {
+	width: 35px;
+}
+
+.dynamic-tabs-container {
+	left: 33px;
+}
+
+.resp-tab-active, .qustn_mock > li.active {
+	width: 164px;
+}
+
+.dynamic-tabs-container .tabs-dropdown {
+	right: 32%;
+}
+}
+
+.dynamic-tabs-container .tabs-dropdown .dropdown-toggle {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.dynamic-tabs-container .tabs-dropdown .dropdown-toggle .count {
+    margin-right: 5px;
+}
+.dynamic-tabs-container .tabs-dropdown .dropdown-toggle .caret {
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 6px solid;
+    margin-left: 0;
+    vertical-align: initial;
+}

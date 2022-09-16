@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blacklistentries>
+  <blacklist>
+    <subnet>87.106.244.29</subnet>
+    <description>Illegal Accessing from this IP address</description>
+  </blacklist>
+</blacklistentries>

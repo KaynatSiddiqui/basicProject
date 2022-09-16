@@ -1,0 +1,54 @@
+.setwhd{
+    padding: 150px 68px 150px !important;
+}
+
+.setback{
+ background:#fff;
+}
+
+.heit{
+margin-top:15px;
+}
+
+.getstached{
+    margin: 8px 10px;
+    padding-top: 22px;
+    padding-bottom:0px;
+    background: #fff !important;
+}
+
+.getposi{
+    position: relative;
+    top: -23px;
+    left: -23px;
+    color:black;
+    border-bottom: 2px solid #c4c4ff;
+}
+
+
+.setbg{
+background: #ffaec9;
+padding-bottom:80px;
+}
+
+.heit1{
+line-height:30px;
+}
+
+.setbtn{
+padding:6px 18px;
+margin-top:0px;
+}
+
+#settabs > li{
+width:120px !important;
+}
+
+#settabs > li.active{
+     border-bottom:3px solid deepskyblue;
+}
+
+#settabs > li >a{
+color:black;
+background:none !important;
+}

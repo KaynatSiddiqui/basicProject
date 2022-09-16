@@ -1,0 +1,134 @@
+body{
+    background:#eee;
+}
+.cons{
+        padding: 25px 0px 110px 0;
+}
+.main{
+        width: 60%;
+    margin: 0 auto;
+}
+.first{
+    width: 14px;
+    position: absolute;
+    z-index: 999;
+    background: #ecb920;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 241px;
+}
+.second{
+    background: #fff;
+    border-radius: 14px;
+    position: relative;
+    
+}
+.valdate{
+    text-align: right;
+    margin-right: 29px;
+        padding: 8px;
+}
+.valtex{
+    color: #7f7f7f;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+}
+.date{
+        font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #333;
+}
+.subsbd{
+    padding-left: 55px;
+    font-weight: 600;
+}
+.substext{
+    font-size: 15px;
+     color: dimgrey;
+}
+.excolor{
+    color: #7f7f7f;
+}
+.row1{
+       padding: 0 63px; 
+}
+.stcat{
+    padding-left: 55px;
+    padding-top: 10px;
+    padding-bottom: 17px;
+}
+.stand{
+     font-weight: 600;
+     color: dimgrey;
+}
+.standtext{
+    
+}
+.stand2{
+    padding-left: 100px
+}
+hr{
+    border: 1px solid #ecb920;
+    width: 85%;
+        margin-top: 0px;
+}
+.row2{
+   height: 25px;
+    padding-left: 55px; 
+}
+.col-sm-4{
+    color: dimgrey;
+    font-weight: 600;
+}
+.gain{
+    padding-left: 55px;
+     color: dimgrey;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.row3{
+    padding-top: 20px;
+    padding-left: 55px;
+}
+.viewdetails{
+    color: skyblue;
+    cursor: pointer;
+}
+.modal-backdrop{
+    background-color:transparent;
+}
+.modal.in .modal-dialog{
+    top: 25%;
+    position: relative;
+    left: 50%;
+}
+.modal-content{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
